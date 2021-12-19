@@ -131,7 +131,7 @@ class spel:
 
 
     def Resultat_till_fil(self):
-        with open('C:/Users/samer/source/repos/Grundläggande programmering P-uppgiften/Grundläggande programmering P-uppgiften/poäng per spel.txt', 'a', encoding='utf-8') as fil:
+        with open(r'C:\Users\samer\source\repos\Pyhton spel\Matematik spel\poäng per spel.txt', 'a', encoding='utf-8') as fil:
             fil.write(str(self.poäng) + "\n")
 
 
