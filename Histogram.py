@@ -4,7 +4,7 @@ class Histogram:
 
     def läs_in_poäng_från_lista(self):
         poäng_lista = []
-        with open('C:/Users/samer/source/repos/Grundläggande programmering P-uppgiften/Grundläggande programmering P-uppgiften/poäng per spel.txt', 'r', encoding='utf-8') as fil:
+        with open(r'C:\Users\samer\source\repos\Pyhton spel\Matematik spel\poäng per spel.txt', 'r', encoding='utf-8') as fil:
             for line in fil:
                 poäng_lista.append(line)
 
